@@ -1,0 +1,141 @@
+Circuit: * C:\HOME_projects\SYNTH_GOOM\2LineartoExponential\main_trim_and_linexp.asc
+
+WARNING: Less than two connections to node VCC.  This node is used by V8.
+.step temp=10°C
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 5.17847e-005
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 5.41707e-005
+vernier = 0.0208333
+vernier = 0.0277778
+Gmin = 5.15398e-005
+vernier = 0.037037
+Gmin = 4.75446e-005
+vernier = 0.0493827
+vernier = 0.0658435
+Gmin = 4.16729e-005
+vernier = 0.0877914
+vernier = 0.117055
+Gmin = 3.38441e-005
+vernier = 0.156073
+vernier = 0.0780367
+Gmin = 2.61204e-005
+vernier = 0.0390184
+vernier = 0.0195092
+Gmin = 2.4884e-005
+vernier = 0.0260122
+vernier = 0.034683
+Gmin = 2.32097e-005
+vernier = 0.046244
+vernier = 0.0616586
+Gmin = 2.07886e-005
+vernier = 0.0822114
+Gmin = 1.73952e-005
+vernier = 0.109615
+vernier = 0.146154
+Gmin = 1.30134e-005
+vernier = 0.194871
+vernier = 0.259828
+Gmin = 8.24804e-006
+vernier = 0.346438
+Gmin = 3.97487e-006
+vernier = 0.461917
+vernier = 0.615889
+Gmin = 1.23565e-006
+vernier = 0.821185
+vernier = 0.410593
+vernier = 0.205296
+vernier = 0.102648
+Gmin = 6.34567e-007
+vernier = 0.0513241
+vernier = 0.025662
+vernier = 0.012831
+vernier = 0.00641551
+vernier = 0.00320776
+vernier = 0.00160388
+vernier = 0.000801939
+vernier = 0.000400969
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.0473%
+vernier = 0.00390625
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 550.414 ms.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:  d:u2:e_n:2  d:u2:e_n:1  d:u2:i_np:2  d:u2:i_np:1  d:u2:i_nn:2
+Model: u2:e_n:dvn  u2:e_n:dvn  u2:i_np:dvnf u2:i_np:dvnf u2:i_nn:dvnf
+Id:      1.00e-02    1.00e-02    1.00e-02     1.00e-02     1.00e-02
+Vd:      8.54e-01    8.54e-01    8.54e-01     8.54e-01     8.54e-01
+Req:     2.44e+00    2.44e+00    2.44e+00     2.44e+00     2.44e+00
+CAP:     0.00e+00    0.00e+00    0.00e+00     0.00e+00     0.00e+00
+
+Name:  d:u2:i_nn:1  d:u3:e_n:2  d:u3:e_n:1  d:u3:i_np:2  d:u3:i_np:1
+Model: u2:i_nn:dvnf u3:e_n:dvn  u3:e_n:dvn  u3:i_np:dvnf u3:i_np:dvnf
+Id:      1.00e-02     1.00e-02    1.00e-02    1.00e-02     1.00e-02
+Vd:      8.54e-01     8.54e-01    8.54e-01    8.54e-01     8.54e-01
+Req:     2.44e+00     2.44e+00    2.44e+00    2.44e+00     2.44e+00
+CAP:     0.00e+00     0.00e+00    0.00e+00    0.00e+00     0.00e+00
+
+Name:  d:u3:i_nn:2  d:u3:i_nn:1  d:u1:e_n:2  d:u1:e_n:1  d:u1:i_np:2
+Model: u3:i_nn:dvnf u3:i_nn:dvnf u1:e_n:dvn  u1:e_n:dvn  u1:i_np:dvnf
+Id:      1.00e-02     1.00e-02     1.00e-02    1.00e-02    1.00e-02
+Vd:      8.54e-01     8.54e-01     8.54e-01    8.54e-01    8.54e-01
+Req:     2.44e+00     2.44e+00     2.44e+00    2.44e+00    2.44e+00
+CAP:     0.00e+00     0.00e+00     0.00e+00    0.00e+00    0.00e+00
+
+Name:  d:u1:i_np:1  d:u1:i_nn:2  d:u1:i_nn:1
+Model: u1:i_np:dvnf u1:i_nn:dvnf u1:i_nn:dvnf
+Id:      1.00e-02     1.00e-02     1.00e-02
+Vd:      8.54e-01     8.54e-01     8.54e-01
+Req:     2.44e+00     2.44e+00     2.44e+00
+CAP:     0.00e+00     0.00e+00     0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q4          q3
+Model:    bc547c      bc547c
+Ib:       2.86e-08    2.24e-08
+Ic:       1.28e-05    1.00e-05
+Vbe:      5.47e-01    5.41e-01
+Vbc:     -2.75e-03   -8.81e-03
+Vce:      5.49e-01    5.49e-01
+BetaDC:   4.47e+02    4.47e+02
+Gm:       5.19e-04    4.06e-04
+Rpi:      8.69e+05    1.11e+06
+Rx:       1.00e+00    1.00e+00
+Ro:       4.11e+06    5.25e+06
+Cbe:      2.46e-11    2.42e-11
+Cbc:      2.49e-12    2.48e-12
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   4.51e+02    4.50e+02
+Cbx:      1.53e-12    1.52e-12
+Ft:       2.88e+06    2.29e+06
+
+
+.step temp=25°C

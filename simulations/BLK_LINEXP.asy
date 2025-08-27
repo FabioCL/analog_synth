@@ -1,0 +1,18 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 96 80 -80 -80
+PIN -80 64 LEFT 8
+PINATTR PinName Vneg
+PINATTR SpiceOrder 1
+PIN -80 0 LEFT 8
+PINATTR PinName Vpos
+PINATTR SpiceOrder 2
+PIN -80 32 LEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 3
+PIN -80 -64 LEFT 8
+PINATTR PinName Vpitch
+PINATTR SpiceOrder 4
+PIN 96 -64 RIGHT 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 5

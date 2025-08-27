@@ -1,0 +1,27 @@
+Circuit: * C:\HOME_projects\SYNTH_GOOM\2LineartoExponential\main_ADSR.asc
+
+Limiting rise time of source v2 to 0.1
+Limiting fall time of source v2 to 0.1
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by C2.
+WARNING: Less than two connections to node OUT.  This node is used by R22.
+.OP point found by inspection.
+
+Date: Sun Jul 28 20:07:50 2024
+Total elapsed time: 0.186 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5191
+traniter = 5191
+tranpoints = 2009
+accept = 1733
+rejected = 276
+matrix size = 77
+fillins = 76
+solver = Normal
+Matrix Compiler1: 9.11 KB object code size  1.4/1.2/[0.5]
+Matrix Compiler2: 7.95 KB object code size  0.5/0.9/[0.4]
+
