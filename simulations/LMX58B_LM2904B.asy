@@ -5,7 +5,7 @@ WINDOW 0 0 -56 Bottom 2
 WINDOW 3 0 56 Top 2
 SYMATTR Prefix X
 SYMATTR Value LMX58B_LM2904B
-SYMATTR ModelFile C:\HOME_projects\SYNTH_GOOM\2LineartoExponential\LMx58B_LM2904B_PSpice\lmx58b_lm2904b.lib
+SYMATTR ModelFile C:\MY_GIT_REP\analog_synth\simulations\LMx58B_LM2904B_PSpice\lmx58b_lm2904b.lib
 PIN -64 -16 LEFT 8
 PINATTR PinName IN+
 PINATTR SpiceOrder 1
@@ -15,9 +15,9 @@ PINATTR SpiceOrder 2
 PIN 64 -32 RIGHT 8
 PINATTR PinName VCC
 PINATTR SpiceOrder 3
-PIN 64 0 RIGHT 8
+PIN 64 32 RIGHT 8
 PINATTR PinName VEE
 PINATTR SpiceOrder 4
-PIN 64 32 RIGHT 8
+PIN 64 0 RIGHT 8
 PINATTR PinName OUT
 PINATTR SpiceOrder 5
