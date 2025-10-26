@@ -1,4 +1,4 @@
-26638132515314451
+26641654956739195
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106253,6 +106253,13 @@ Varistor VF
 2
 2
 mylib
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
+mylib
 LED-3528
 Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
@@ -106266,3 +106273,10 @@ LED_8x8_3MM_38x38MM
 0
 16
 16
+mylib
+mylib
+Potentiometer, vertical, Trimmer, RM-065 https://components101.com/sites/default/files/component_datasheet/Preset%20Potentiometer%20%28Trimpot%29.pdf
+Potentiometer Trimmer RM-065
+0
+3
+3

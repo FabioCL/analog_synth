@@ -626,295 +626,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+15V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1017,28 +728,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "\nKNOB PWM \nLEVEL: -5V to 5V"
-		(exclude_from_sim no)
-		(at 66.548 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4f92f4e-b615-417a-bcaf-bb41bd3838e2")
-	)
-	(junction
-		(at 90.17 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03d0b23d-487e-4608-aa76-10f8151c0a9d")
-	)
-	(junction
-		(at 116.84 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "623a7a92-383f-4313-b49a-bb019bc70a6a")
-	)
 	(junction
 		(at 175.26 76.2)
 		(diameter 0)
@@ -1053,6 +742,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a7efe1-db1b-4bc1-bf47-9c4c5ba5f4fd")
+	)
+	(wire
+		(pts
 			(xy 207.01 86.36) (xy 207.01 73.66)
 		)
 		(stroke
@@ -1060,16 +759,6 @@
 			(type default)
 		)
 		(uuid "09faaf3c-2628-4ade-afc0-93739c05b3c3")
-	)
-	(wire
-		(pts
-			(xy 139.7 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141b8bec-08b8-4be5-a406-ac567713bf54")
 	)
 	(wire
 		(pts
@@ -1083,26 +772,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 90.17 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230c21cd-c0c6-4638-916e-c189e6b1ad95")
-	)
-	(wire
-		(pts
-			(xy 81.28 73.66) (xy 81.28 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4898ca3f-ddbd-48e0-9c34-4f289b098e37")
-	)
-	(wire
-		(pts
 			(xy 175.26 76.2) (xy 180.34 76.2)
 		)
 		(stroke
@@ -1110,16 +779,6 @@
 			(type default)
 		)
 		(uuid "57a5752f-35cd-451a-a142-e06502eb9653")
-	)
-	(wire
-		(pts
-			(xy 116.84 78.74) (xy 116.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e08513-428c-4693-972f-5e7c3ae8767e")
 	)
 	(wire
 		(pts
@@ -1153,26 +812,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f849edc-aaf9-434f-aab7-cd0ce317cc41")
-	)
-	(wire
-		(pts
-			(xy 109.22 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02f62fe-af24-46fd-9711-5c63f7dd4721")
-	)
-	(wire
-		(pts
 			(xy 177.8 71.12) (xy 180.34 71.12)
 		)
 		(stroke
@@ -1190,16 +829,6 @@
 			(type default)
 		)
 		(uuid "b6674fb7-d96a-40b2-a9a7-3570b8c00db5")
-	)
-	(wire
-		(pts
-			(xy 90.17 78.74) (xy 101.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c28b9e9f-06e0-4b9d-b6e7-e4112fe58525")
 	)
 	(wire
 		(pts
@@ -1261,6 +890,17 @@
 			(justify left)
 		)
 		(uuid "14773429-c824-4708-b7ab-d9c104bde825")
+	)
+	(hierarchical_label "V_PWM_CTRL"
+		(shape input)
+		(at 107.95 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fa5fde5-ee1a-4581-a5d2-e1861e601986")
 	)
 	(hierarchical_label "V_SAW"
 		(shape input)
@@ -1337,83 +977,6 @@
 				)
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
 					(reference "#PWR0313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 81.28 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d4b037-8b0c-4f96-8821-f01be3fa011e")
-		(property "Reference" "RV11"
-			(at 78.74 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 78.74 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 81.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "81f08aba-6cfa-4ad3-898b-c416fdd00ff8")
-		)
-		(pin "1"
-			(uuid "db9e62bc-eb5a-43f4-b3b8-ee0c44ff87f1")
-		)
-		(pin "2"
-			(uuid "17de654c-a1ca-4ad3-91a3-1d4026fe1652")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "RV11")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "RV24")
 					(unit 1)
 				)
 			)
@@ -1537,217 +1100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 81.28 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56ab824d-0d05-408b-9004-77318a4e08c9")
-		(property "Reference" "#PWR0244"
-			(at 81.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 81.28 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4414350-b85c-4bc3-8233-13a99261ba25")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "#PWR0244")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "#PWR0311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 81.28 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65628d75-0ce6-4a61-b235-6d98de0c7e56")
-		(property "Reference" "#PWR0245"
-			(at 81.28 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 81.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 81.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e96e28db-bd36-4ec0-8d78-12aa8d71ad8b")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "#PWR0245")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "#PWR0312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "730960e6-d109-4b64-bc3d-1a4863d02a34")
-		(property "Reference" "R105"
-			(at 105.664 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7.5k"
-			(at 105.918 83.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0406d706-3778-4b8b-bad8-649a2b895167")
-		)
-		(pin "1"
-			(uuid "045958b6-2307-45f5-8e74-47e0aee15ac6")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "R105")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "R175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 166.37 76.2 90)
 		(unit 1)
@@ -1772,7 +1124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 77.978 90)
 			(effects
 				(font
@@ -1799,6 +1151,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "RT0402BRD072K4L"
+			(at 166.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f3fbc0c-70f0-45f6-96a0-745d225d3ec7")
 		)
@@ -1813,76 +1183,6 @@
 				)
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
 					(reference "R177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8439b534-83e1-4137-bd86-c0048d786f4a")
-		(property "Reference" "TP17"
-			(at 91.44 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_CTRL_PWM"
-			(at 91.694 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10322d87-240c-4292-ae14-13a520dfe0c6")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "TP17")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -2077,146 +1377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c66eb8f-14ff-4cdf-8e28-0670eb5db633")
-		(property "Reference" "#PWR0247"
-			(at 116.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec219d18-3b8a-485c-a068-c5628f17ef5e")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "#PWR0247")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "#PWR0314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3a570fb-cd70-45d7-97e1-8624624e8fae")
-		(property "Reference" "R106"
-			(at 120.904 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 121.158 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.618 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db03f951-f639-44d2-b727-05bbcad1e983")
-		)
-		(pin "1"
-			(uuid "17b3e31d-6329-4d46-95c2-0344bfe92961")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/37d095c5-99bd-41a0-85e8-3617bf45bad0"
-					(reference "R106")
-					(unit 1)
-				)
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/949c0920-371e-49db-9d2f-3e3b45caf3ff"
-					(reference "R176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 187.96 86.36 90)
 		(unit 1)
@@ -2241,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 88.138 90)
 			(effects
 				(font
@@ -2261,6 +1421,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 187.96 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 187.96 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
