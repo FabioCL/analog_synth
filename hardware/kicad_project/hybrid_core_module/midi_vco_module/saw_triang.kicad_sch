@@ -1996,7 +1996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2784dfc3-8973-4520-9803-753601bc18d5")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 215.9 66.0401 0)
 			(effects
 				(font
@@ -2059,6 +2059,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9beaeaa1-c896-4390-ae33-3a11c111731a")
 		)
@@ -2087,7 +2105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2987050e-5c0b-49eb-97ee-c9222ae0d6be")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -2156,7 +2174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3981ddcc-3834-4c65-8c22-e16c9c612b8e")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 223.52 53.3399 0)
 			(effects
 				(font
@@ -2219,6 +2237,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 219.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05266de3-1e94-4257-b1a0-e82f00823c9e")
 		)
@@ -2247,7 +2283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4250f40e-12b8-491a-9ef5-238e18a3231e")
-		(property "Reference" "R96"
+		(property "Reference" "R166"
 			(at 137.668 99.314 0)
 			(effects
 				(font
@@ -2308,6 +2344,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "852e5fb1-ed26-4e68-bc54-d95d6b2182e1")
 		)
@@ -2336,7 +2390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6f0f6c-93f3-4a8b-a76b-80fb7a133296")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0306"
 			(at 133.35 111.76 0)
 			(effects
 				(font
@@ -2405,7 +2459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f0b4268-8106-45f2-92b5-045238da5f32")
-		(property "Reference" "R98"
+		(property "Reference" "R168"
 			(at 171.704 83.82 90)
 			(effects
 				(font
@@ -2466,6 +2520,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 171.45 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 171.45 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc51362f-1e29-426d-a58a-aed3703aa5f3")
 		)
@@ -2494,7 +2566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7facfaa7-57a3-4f67-814c-912fd5e17cb9")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0308"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -2564,7 +2636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8570bc3d-bad9-45c3-8813-c92fcd03f57c")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0307"
 			(at 153.67 72.39 0)
 			(effects
 				(font
@@ -2633,7 +2705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c49c9b7-e2ca-4f2d-8c16-6df41c31598b")
-		(property "Reference" "R99"
+		(property "Reference" "R169"
 			(at 182.626 98.806 90)
 			(effects
 				(font
@@ -2694,6 +2766,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 177.8 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 177.8 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc0899be-18f5-4c93-b7a8-fbb83dfdc6cb")
 		)
@@ -2723,7 +2813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90f7cc81-5b83-45a4-8d86-46a77140f445")
-		(property "Reference" "U24"
+		(property "Reference" "U14"
 			(at 209.55 58.4199 0)
 			(effects
 				(font
@@ -2741,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -2769,6 +2859,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 210.82 59.69 0)
 			(effects
 				(font
@@ -2841,7 +2958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0cd9d97-1991-4439-969c-bc205ce14d13")
-		(property "Reference" "R95"
+		(property "Reference" "R165"
 			(at 101.346 96.266 90)
 			(effects
 				(font
@@ -2902,6 +3019,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 96.52 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 96.52 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73ce7ab1-2958-4af3-bac1-e49a28bb0464")
 		)
@@ -2930,7 +3065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aac8f226-726b-4b99-8dfb-fd35aec74f3f")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 236.22 53.3399 0)
 			(effects
 				(font
@@ -2993,6 +3128,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ea368c6-86fb-43c8-a3f2-f0dabc5257c9")
 		)
@@ -3022,7 +3175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ed2f2a-0d18-4fd5-9b17-dc28bba23bb4")
-		(property "Reference" "D15"
+		(property "Reference" "D33"
 			(at 135.89 80.0099 90)
 			(effects
 				(font
@@ -3103,6 +3256,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69cc29f2-d221-40b1-b9b8-509e4b52c7e4")
 		)
@@ -3131,7 +3302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc9a7d67-e2c5-49ce-86c1-3d607139ee93")
-		(property "Reference" "C64"
+		(property "Reference" "C89"
 			(at 88.646 96.52 90)
 			(effects
 				(font
@@ -3192,6 +3363,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 85.09 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 85.09 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eebcc55d-87e7-4bce-83ae-7d4ba72cad33")
 		)
@@ -3221,7 +3410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19e6c40-1ecd-4bc2-9604-5572edd21ddd")
-		(property "Reference" "TP15"
+		(property "Reference" "TP25"
 			(at 203.2 84.3279 0)
 			(effects
 				(font
@@ -3266,6 +3455,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c30fc466-6ed4-4ac7-b13a-fd7ad3b5f448")
 		)
@@ -3291,7 +3498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e68bf14e-d29e-4dda-9ad3-7cf4bc080a02")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 228.6 66.0401 0)
 			(effects
 				(font
@@ -3354,6 +3561,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95a9c1ab-acbc-4409-b54f-c808070f4cb0")
 		)
@@ -3383,7 +3608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9a52b38-8ae9-40c7-a5c0-151e69cddd81")
-		(property "Reference" "D14"
+		(property "Reference" "D32"
 			(at 92.71 85.09 0)
 			(effects
 				(font
@@ -3462,6 +3687,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33e71d0d-5938-4f30-ac3e-afdf1b4cf4b6")
 		)
@@ -3491,7 +3734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f119746a-fc70-4e75-9165-7cd7c2614bbc")
-		(property "Reference" "U24"
+		(property "Reference" "U14"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -3507,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -3535,6 +3778,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -3608,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7704fa7-2b39-49ff-ab77-d7648a801617")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 237.49 66.04 0)
 			(effects
 				(font
@@ -3677,7 +3947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8c72aa5-5191-4d90-b05e-099e21d7a124")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -3747,7 +4017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d1c09e-7c7d-46d5-9aa7-d910cb039b5b")
-		(property "Reference" "RV8"
+		(property "Reference" "RV21"
 			(at 151.13 73.6599 0)
 			(effects
 				(font
@@ -3765,7 +4035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -3792,7 +4062,34 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "3296X-104-LF"
+		(property "Manufacturer PartNumer" "3296W-104-LF"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KESHY"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -3832,7 +4129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9d682e9-cb19-47dd-9839-a4dbf2790d67")
-		(property "Reference" "R100"
+		(property "Reference" "R170"
 			(at 192.786 98.806 90)
 			(effects
 				(font
@@ -3893,6 +4190,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 187.96 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9b5400d-dd27-4a6c-a82d-7380587987ec")
 		)
@@ -3921,7 +4236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fafdc973-fefe-4d38-8b9a-ac5b22108d42")
-		(property "Reference" "C65"
+		(property "Reference" "C90"
 			(at 186.944 104.648 90)
 			(effects
 				(font
@@ -3982,6 +4297,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 182.88 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75f50008-b0ae-47be-9526-961ea7d1be4d")
 		)
@@ -4010,7 +4343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb04667b-5f54-4f7b-afe7-1855d385b63a")
-		(property "Reference" "R97"
+		(property "Reference" "R167"
 			(at 157.226 89.916 90)
 			(effects
 				(font
@@ -4063,6 +4396,24 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 152.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 152.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 152.4 91.44 90)
 			(effects
 				(font

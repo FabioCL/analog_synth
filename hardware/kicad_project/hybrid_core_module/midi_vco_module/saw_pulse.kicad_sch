@@ -922,7 +922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "103b7ae9-ab20-4834-839e-bdead6293dd7")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0313"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -992,7 +992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c32f5d-02cc-4afd-960d-5f9349e1f0c4")
-		(property "Reference" "U24"
+		(property "Reference" "U14"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -1036,6 +1036,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -1108,7 +1135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fb6cd2d-9e32-4af8-a889-bb6da98695bb")
-		(property "Reference" "R107"
+		(property "Reference" "R177"
 			(at 166.624 71.882 90)
 			(effects
 				(font
@@ -1169,6 +1196,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 166.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f3fbc0c-70f0-45f6-96a0-745d225d3ec7")
 		)
@@ -1198,7 +1243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d80fbe-4ac8-489e-8ebb-0270a0155b39")
-		(property "Reference" "U24"
+		(property "Reference" "U14"
 			(at 187.96 63.5 0)
 			(effects
 				(font
@@ -1214,7 +1259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 186.69 71.12 0)
 			(effects
 				(font
@@ -1242,6 +1287,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -1315,7 +1387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f4b4d5-5ca4-472f-9e7e-58116e0963e0")
-		(property "Reference" "TP18"
+		(property "Reference" "TP28"
 			(at 209.55 69.0879 0)
 			(effects
 				(font
@@ -1360,6 +1432,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "948917d7-84bb-4b58-b1be-8d5e8220c3b0")
 		)
@@ -1385,7 +1475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6599e9b-e6ad-4145-90f5-567e916fc909")
-		(property "Reference" "R108"
+		(property "Reference" "R178"
 			(at 188.214 82.042 90)
 			(effects
 				(font
@@ -1438,6 +1528,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 187.96 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 187.96 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 187.96 86.36 90)
 			(effects
 				(font

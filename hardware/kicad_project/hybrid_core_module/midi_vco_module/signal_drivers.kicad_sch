@@ -4360,6 +4360,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 69.85 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58dc0e94-6649-40ea-9c2b-da4e9486a01c")
 		)
@@ -4518,6 +4536,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 110.49 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 110.49 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be92c574-2a96-4ca1-a057-6bcac56cdacf")
 		)
@@ -4598,6 +4634,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM155R71E104KE14J"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -4691,6 +4745,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM155R71E104KE14J"
+			(at 191.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 191.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 191.77 146.05 0)
 			(effects
 				(font
@@ -4924,6 +4996,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4fe847b-020e-4b08-8425-c05030fdb954")
 		)
@@ -4989,6 +5079,42 @@
 		)
 		(property "Description" "2.500V Precision Micropower Shunt Voltage Reference, SOT-23"
 			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 87.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 87.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "LM4040QAIM3-2.5/NOPB"
+			(at 87.63 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,6 +5216,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 148.59 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 148.59 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bbaabbe8-b307-47b1-b657-cdbc5b1153e8")
 		)
@@ -5155,6 +5299,42 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "2N7002"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 49.53 170.18 0)
 			(effects
 				(font
@@ -5259,6 +5439,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 245.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 245.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b2a5f72-545f-414e-953a-978921fe73b7")
 		)
@@ -5338,6 +5536,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM219R71E105MA88J"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 257.81 85.09 0)
 			(effects
 				(font
@@ -5452,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -5480,6 +5696,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 233.68 44.45 0)
 			(effects
 				(font
@@ -5564,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 87.63 0)
 			(effects
 				(font
@@ -5592,6 +5835,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 233.68 90.17 0)
 			(effects
 				(font
@@ -5794,6 +6064,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7831ab5-661e-48fe-bd2b-9f008b597e87")
 		)
@@ -5877,6 +6165,24 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 172.72 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 172.72 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 172.72 59.69 90)
 			(effects
 				(font
@@ -6041,6 +6347,24 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 147.32 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 147.32 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 147.32 43.18 90)
 			(effects
 				(font
@@ -6214,6 +6538,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce81fad3-0f5f-4fed-8fc6-d70ae7a8f3a7")
 		)
@@ -6260,7 +6602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -6288,6 +6630,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -6529,6 +6898,42 @@
 			)
 		)
 		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "TL071CDR"
 			(at 160.02 125.73 0)
 			(effects
 				(font
@@ -6785,6 +7190,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b73d4d39-f94d-4a1e-83dd-55ea723f3efc")
 		)
@@ -6862,6 +7285,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE07100KL"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 58.42 154.94 0)
 			(effects
 				(font
@@ -7029,6 +7470,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8dc89750-96c8-430b-91ef-8ba5fbaaea35")
 		)
@@ -7108,6 +7567,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM219R71E105MA88J"
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -7294,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -7314,6 +7791,42 @@
 			)
 		)
 		(property "Description" "Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "MCP4922-E/SL"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -7443,6 +7956,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM219R71E105MA88J"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 204.47 146.05 0)
 			(effects
 				(font
@@ -7676,6 +8207,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 87.63 30.48 0)
 			(effects
 				(font
@@ -7972,6 +8521,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1585c7f-944f-478d-94ef-7b72a17335ee")
 		)
@@ -8056,6 +8623,24 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 147.32 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 147.32 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 147.32 85.09 90)
 			(effects
 				(font
@@ -8227,6 +8812,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 193.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 193.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da2a2b18-7d9d-402c-9905-6401cac55e05")
 		)
@@ -8310,6 +8913,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE0710KL"
+			(at 154.94 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 154.94 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 154.94 100.33 90)
 			(effects
 				(font
@@ -8476,6 +9097,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6102861-6afa-4505-b818-0aead691cbc6")
 		)
@@ -8553,6 +9192,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE07100KL"
+			(at 38.1 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 38.1 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 38.1 175.26 90)
 			(effects
 				(font
@@ -8724,6 +9381,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 95.25 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 95.25 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a943f72a-b164-4834-9188-b910d0944a58")
 		)
@@ -8796,6 +9471,42 @@
 			)
 		)
 		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "BSS83PH6327XTSA1"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -8900,6 +9611,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30e9097e-de3d-4f04-8a94-bc99480de323")
 		)
@@ -8977,6 +9706,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 107.95 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 107.95 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 107.95 167.64 90)
 			(effects
 				(font
@@ -9076,6 +9823,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 166.37 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6877eef8-abe3-4b35-bb53-ba3c39f36b1d")
 		)
@@ -9156,6 +9921,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "BZT52-B10J"
+			(at 95.25 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 95.25 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 95.25 177.8 90)
 			(effects
 				(font
@@ -9256,6 +10039,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 87.63 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d1f7d53-cdd4-4e5e-b0fa-1cb5a1403944")
 		)
@@ -9302,7 +10103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -9330,6 +10131,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 166.37 45.72 0)
 			(effects
 				(font
@@ -9591,6 +10419,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 154.94 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 154.94 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b32ed71a-6aea-434d-bda7-57e8a8371205")
 		)
@@ -9676,6 +10522,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "GRM219R71E105MA88J"
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -9841,6 +10705,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 186.69 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 186.69 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a26ebb18-eea8-4982-9dcb-6b657aaf3b59")
 		)
@@ -9918,6 +10800,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 193.04 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 193.04 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 193.04 87.63 90)
 			(effects
 				(font

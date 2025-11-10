@@ -226,32 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1092200|647700|f168aaf6-e9e8-4568-ba50-f032ddc3d35a|260f5f7f-99b0-4046-b346-467148530839|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        ""
-      ],
-      [
-        "multiple_net_names|1092200|673100|0672bd54-9313-4981-83b9-cc23b3068b5c|87b91225-774a-4e44-b6a0-5bbe400f88ab|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        ""
-      ],
-      [
-        "multiple_net_names|1092200|698500|3b64be52-7d15-440c-9b0a-73dd0901bded|7cc5ec6f-fb81-4037-9388-2b8530932ce7|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        ""
-      ],
-      [
-        "multiple_net_names|1092200|901700|ba7c4621-0917-4f46-b1da-33b7ef1c8a68|706bba36-1bfa-42c1-853c-a0028020c725|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        ""
-      ],
-      [
-        "multiple_net_names|1092200|927100|4794e789-4ca3-4714-8581-0c98a0604cc2|d501f06e-950d-4659-8b1a-0fb477aa9d72|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        ""
-      ],
-      [
-        "multiple_net_names|977900|596900|22cc66a4-c510-41dc-b0a5-bea044d35f71|fc2520e4-c610-42ba-b5cd-ebfa97832b06|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616|/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616",
-        "ok"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -637,12 +612,12 @@
           "show": false
         }
       ],
-      "filter_string": "RV",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Manufacturer PartNumer"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -702,8 +677,20 @@
       "SYNTH_CV"
     ],
     [
+      "c693dfb5-f0ff-4b6c-a7d1-dcd9f599e757",
+      "SEQUENCER_UI"
+    ],
+    [
+      "df247ca1-1480-4dbc-98dc-8818cb4d1e3d",
+      "VCO_SAW_A"
+    ],
+    [
       "b5adf1fd-f7fc-415c-86aa-632345bd7954",
       "VCO_SAW_B"
+    ],
+    [
+      "fd00ed70-e470-45b4-88e0-0b2d9f633858",
+      "SAW_TRIANG_A"
     ],
     [
       "9909bdec-d0f8-4560-842b-721cd891dee5",
@@ -714,28 +701,16 @@
       "TRIANG_SINE_B"
     ],
     [
-      "37d095c5-99bd-41a0-85e8-3617bf45bad0",
-      "SAW_PULSE_B"
-    ],
-    [
-      "c693dfb5-f0ff-4b6c-a7d1-dcd9f599e757",
-      "SEQUENCER_UI"
-    ],
-    [
-      "df247ca1-1480-4dbc-98dc-8818cb4d1e3d",
-      "VCO_SAW_A"
-    ],
-    [
-      "fd00ed70-e470-45b4-88e0-0b2d9f633858",
-      "SAW_TRIANG_A"
-    ],
-    [
       "69fcd951-2a17-43bc-8171-207c4d707e9f",
       "TRIANG_SINE_A"
     ],
     [
       "949c0920-371e-49db-9d2f-3e3b45caf3ff",
       "SAW_PULSE_A"
+    ],
+    [
+      "37d095c5-99bd-41a0-85e8-3617bf45bad0",
+      "SAW_PULSE_B"
     ]
   ],
   "text_variables": {}

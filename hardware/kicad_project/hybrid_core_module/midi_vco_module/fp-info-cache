@@ -1,4 +1,4 @@
-26641654956739195
+26645180423554357
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106274,9 +106274,23 @@ LED_8x8_3MM_38x38MM
 16
 16
 mylib
-mylib
+Potentiometer_Runtron_RM-063_Horizontal
 Potentiometer, vertical, Trimmer, RM-065 https://components101.com/sites/default/files/component_datasheet/Preset%20Potentiometer%20%28Trimpot%29.pdf
 Potentiometer Trimmer RM-065
+0
+3
+3
+mylib
+SR16 Rotary Band Switch
+
+
+0
+10
+8
+mylib
+SW_Toggle_Blue_wSlots
+SW Toggle
+SW Toggle
 0
 3
 3

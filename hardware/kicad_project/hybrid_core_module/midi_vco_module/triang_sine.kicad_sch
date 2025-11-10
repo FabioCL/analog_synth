@@ -1933,7 +1933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -1960,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+		(property "Manufacturer PartNumer" "3296W-102-LF"
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -1969,7 +1969,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "KESHY"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -2028,7 +2046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -2055,7 +2073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+		(property "Manufacturer PartNumer" "3296W-102-LF"
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -2064,7 +2082,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "KESHY"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -2121,7 +2157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -2149,6 +2185,33 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "TL074HIDR"
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -2267,6 +2330,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "BCM847BS"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "941c033b-2d99-4d4c-ad89-6d15b990dd15")
 		)
@@ -2368,6 +2467,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 182.88 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2cbd3474-c09e-4f7d-9244-a7e0c35a93d3")
 		)
@@ -2457,6 +2574,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 82.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "724ab47b-3642-4451-982e-23bb00050930")
 		)
@@ -2523,6 +2658,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -2686,6 +2839,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" ""
+			(at 175.26 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 175.26 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d1e60ce-1f55-47f7-aa3c-59dd4c8ebdb7")
 		)
@@ -2767,6 +2938,24 @@
 			)
 		)
 		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -2919,6 +3108,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "BCM847BS"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "708043c5-258f-4934-b67a-4c16b2c8d69c")
 		)
@@ -2940,8 +3165,8 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/69fcd951-2a17-43bc-8171-207c4d707e9f"
-					(reference "Q18")
-					(unit 1)
+					(reference "Q17")
+					(unit 2)
 				)
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/ba0fed31-d4db-45cd-a75d-4d74abfff45c"
 					(reference "Q11")
@@ -3012,6 +3237,24 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 168.91 115.57 0)
 			(effects
 				(font
