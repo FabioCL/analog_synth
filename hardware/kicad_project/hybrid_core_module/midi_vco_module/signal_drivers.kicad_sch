@@ -3081,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 87.63) (xy 185.42 87.63)
+			(xy 185.42 87.63) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3198,16 +3198,6 @@
 			(type default)
 		)
 		(uuid "65a1e331-b371-4d90-a2e7-d7e801ced4e3")
-	)
-	(wire
-		(pts
-			(xy 196.85 87.63) (xy 199.39 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66457a61-eda2-4515-9a38-4da54f3f0ca8")
 	)
 	(wire
 		(pts
@@ -3358,16 +3348,6 @@
 			(type default)
 		)
 		(uuid "772ea2a2-0ef0-4b62-94b1-9c36e929db1f")
-	)
-	(wire
-		(pts
-			(xy 196.85 45.72) (xy 200.66 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784d2abf-27ea-4845-9e99-0e51ceaa59be")
 	)
 	(wire
 		(pts
@@ -3561,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 45.72) (xy 185.42 45.72)
+			(xy 185.42 45.72) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8744,115 +8724,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93602791-4114-4dd8-89fd-e2116967e868")
-		(property "Reference" "R64"
-			(at 191.77 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 191.77 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.04 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 193.04 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PartNumer" "RT0402FRE071KL"
-			(at 193.04 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" ""
-			(at 193.04 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 193.04 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da2a2b18-7d9d-402c-9905-6401cac55e05")
-		)
-		(pin "1"
-			(uuid "fafcab26-d61b-42f1-a49b-4aca473f3bec")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/c31db174-6613-4916-a991-4f9ba8b74476"
-					(reference "R64")
-					(unit 1)
-				)
-			)
-			(project "analog_synth"
-				(path "/a8b8d30d-8d60-4de0-b5a6-095005c57c8e/c31db174-6613-4916-a991-4f9ba8b74476"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 154.94 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10733,115 +10604,6 @@
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/c31db174-6613-4916-a991-4f9ba8b74476"
 					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd34d47d-0bae-4488-aec5-38713160db26")
-		(property "Reference" "R65"
-			(at 191.77 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 191.77 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.04 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PartNumer" "RT0402FRE071KL"
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" ""
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c16cf064-8c5c-4de6-80c6-431cb4d83a5e")
-		)
-		(pin "1"
-			(uuid "6b702401-940a-40e3-b4e8-cb2bfca40b9a")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/c31db174-6613-4916-a991-4f9ba8b74476"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-			(project "analog_synth"
-				(path "/a8b8d30d-8d60-4de0-b5a6-095005c57c8e/c31db174-6613-4916-a991-4f9ba8b74476"
-					(reference "R40")
 					(unit 1)
 				)
 			)

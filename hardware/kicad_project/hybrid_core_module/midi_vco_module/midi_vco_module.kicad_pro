@@ -552,7 +552,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -603,7 +603,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -613,11 +613,11 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Manufacturer PartNumer"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -661,6 +661,22 @@
   },
   "sheets": [
     [
+      "df247ca1-1480-4dbc-98dc-8818cb4d1e3d",
+      "VCO_SAW_A"
+    ],
+    [
+      "fd00ed70-e470-45b4-88e0-0b2d9f633858",
+      "SAW_TRIANG_A"
+    ],
+    [
+      "69fcd951-2a17-43bc-8171-207c4d707e9f",
+      "TRIANG_SINE_A"
+    ],
+    [
+      "949c0920-371e-49db-9d2f-3e3b45caf3ff",
+      "SAW_PULSE_A"
+    ],
+    [
       "3378c2b5-f4b3-47f0-8cdf-dba4991b82b5",
       "Root"
     ],
@@ -681,16 +697,8 @@
       "SEQUENCER_UI"
     ],
     [
-      "df247ca1-1480-4dbc-98dc-8818cb4d1e3d",
-      "VCO_SAW_A"
-    ],
-    [
       "b5adf1fd-f7fc-415c-86aa-632345bd7954",
       "VCO_SAW_B"
-    ],
-    [
-      "fd00ed70-e470-45b4-88e0-0b2d9f633858",
-      "SAW_TRIANG_A"
     ],
     [
       "9909bdec-d0f8-4560-842b-721cd891dee5",
@@ -699,14 +707,6 @@
     [
       "ba0fed31-d4db-45cd-a75d-4d74abfff45c",
       "TRIANG_SINE_B"
-    ],
-    [
-      "69fcd951-2a17-43bc-8171-207c4d707e9f",
-      "TRIANG_SINE_A"
-    ],
-    [
-      "949c0920-371e-49db-9d2f-3e3b45caf3ff",
-      "SAW_PULSE_A"
     ],
     [
       "37d095c5-99bd-41a0-85e8-3617bf45bad0",

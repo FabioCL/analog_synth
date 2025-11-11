@@ -4962,7 +4962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -5160,7 +5160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 207.01 58.42 0)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -6252,7 +6252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 251.46 78.74 0)
 			(effects
 				(font
@@ -6745,7 +6745,7 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/b5adf1fd-f7fc-415c-86aa-632345bd7954"
-					(reference "#PWR0297")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/df247ca1-1480-4dbc-98dc-8818cb4d1e3d"
@@ -7453,7 +7453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 80.01 55.88 0)
 			(effects
 				(font
@@ -7673,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 205.74 129.54 0)
 			(effects
 				(font
@@ -8339,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 177.8 46.228 90)
 			(effects
 				(font
@@ -11944,7 +11944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 186.69 46.228 90)
 			(effects
 				(font
@@ -12567,7 +12567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 204.47 146.05 0)
 			(effects
 				(font
@@ -12870,7 +12870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 119.38 64.77 0)
 			(effects
 				(font

@@ -7618,7 +7618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 160.02 27.94 0)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 160.02 27.94 90)
 			(effects
 				(font
@@ -7663,7 +7663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 160.02 27.94 90)
 			(effects
 				(font
@@ -7733,7 +7733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 186.69 27.94 0)
 			(effects
 				(font
@@ -7769,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 186.69 27.94 90)
 			(effects
 				(font
@@ -7778,7 +7778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 186.69 27.94 90)
 			(effects
 				(font
@@ -8130,7 +8130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "mylib:Potentiometer_RV09_Single_Vertical"
 			(at 50.8 180.34 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 204.47 49.53 0)
 			(effects
 				(font
@@ -8687,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 204.47 49.53 90)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 204.47 49.53 90)
 			(effects
 				(font
@@ -9596,7 +9596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 204.47 27.94 0)
 			(effects
 				(font
@@ -9632,7 +9632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 204.47 27.94 90)
 			(effects
 				(font
@@ -9641,7 +9641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 204.47 27.94 90)
 			(effects
 				(font
@@ -9899,7 +9899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 195.58 27.94 0)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 195.58 27.94 90)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 195.58 27.94 90)
 			(effects
 				(font
@@ -10014,7 +10014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -10050,7 +10050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 142.24 27.94 90)
 			(effects
 				(font
@@ -10059,7 +10059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 142.24 27.94 90)
 			(effects
 				(font
@@ -11937,7 +11937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 168.91 49.53 0)
 			(effects
 				(font
@@ -11973,7 +11973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 168.91 49.53 90)
 			(effects
 				(font
@@ -11982,7 +11982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 168.91 49.53 90)
 			(effects
 				(font
@@ -14350,7 +14350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 151.13 27.94 0)
 			(effects
 				(font
@@ -14386,7 +14386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 151.13 27.94 90)
 			(effects
 				(font
@@ -14395,7 +14395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 151.13 27.94 90)
 			(effects
 				(font
@@ -15555,7 +15555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 195.58 49.53 0)
 			(effects
 				(font
@@ -15591,7 +15591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 195.58 49.53 90)
 			(effects
 				(font
@@ -15600,7 +15600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 195.58 49.53 90)
 			(effects
 				(font
@@ -15670,7 +15670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -15706,7 +15706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 177.8 27.94 90)
 			(effects
 				(font
@@ -15715,7 +15715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 177.8 27.94 90)
 			(effects
 				(font
@@ -15983,7 +15983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 168.91 27.94 0)
 			(effects
 				(font
@@ -16019,7 +16019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 168.91 27.94 90)
 			(effects
 				(font
@@ -16028,7 +16028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 168.91 27.94 90)
 			(effects
 				(font
@@ -16605,7 +16605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 142.24 49.53 0)
 			(effects
 				(font
@@ -16641,7 +16641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 142.24 49.53 90)
 			(effects
 				(font
@@ -16650,7 +16650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 142.24 49.53 90)
 			(effects
 				(font
@@ -17332,7 +17332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -17368,7 +17368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 177.8 49.53 90)
 			(effects
 				(font
@@ -17377,7 +17377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 177.8 49.53 90)
 			(effects
 				(font
@@ -18209,7 +18209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -18245,7 +18245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 160.02 49.53 90)
 			(effects
 				(font
@@ -18254,7 +18254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 160.02 49.53 90)
 			(effects
 				(font
@@ -19370,7 +19370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 151.13 49.53 0)
 			(effects
 				(font
@@ -19406,7 +19406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 151.13 49.53 90)
 			(effects
 				(font
@@ -19415,7 +19415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 151.13 49.53 90)
 			(effects
 				(font
@@ -19781,7 +19781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mylib:LED-3528"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 186.69 49.53 0)
 			(effects
 				(font
@@ -19817,7 +19817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SONGXIN LIGHT"
+		(property "Manufacturer" "Shenzhen xiangbang "
 			(at 186.69 49.53 90)
 			(effects
 				(font
@@ -19826,7 +19826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "SX-3528-AMBER-ORANGE "
+		(property "Manufacturer PartNumer" "ORANGE  LED 3MM"
 			(at 186.69 49.53 90)
 			(effects
 				(font

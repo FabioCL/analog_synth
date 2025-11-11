@@ -2886,6 +2886,12 @@
 		(uuid "07f9b2f6-3375-44b1-9904-2f340e190b01")
 	)
 	(junction
+		(at 271.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08d71dea-dbad-4058-a197-66eafcab684b")
+	)
+	(junction
 		(at 17.78 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2922,10 +2928,22 @@
 		(uuid "674cb861-1d5c-443a-a919-9eda7d91cdbe")
 	)
 	(junction
+		(at 227.33 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78f50382-53f4-4677-af12-23c990435099")
+	)
+	(junction
 		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845b8da0-8806-4e9f-a271-374d73a87a08")
+	)
+	(junction
+		(at 238.76 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86d270db-78fd-4467-9dd6-238ba779ee15")
 	)
 	(junction
 		(at 27.94 25.4)
@@ -2956,6 +2974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd77c23f-64af-4ccf-bb5b-1f70e8c26fcb")
+	)
+	(junction
+		(at 274.32 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a94017-6b06-4a39-b6b7-4e9fa8ab766d")
 	)
 	(junction
 		(at 123.19 133.35)
@@ -3093,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 38.1) (xy 222.25 38.1)
+			(xy 243.84 38.1) (xy 227.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3303,6 +3327,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 48.26) (xy 274.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225aca86-3395-4b58-a2b8-003212cc449d")
+	)
+	(wire
+		(pts
 			(xy 152.4 50.8) (xy 162.56 50.8)
 		)
 		(stroke
@@ -3400,6 +3434,16 @@
 			(type default)
 		)
 		(uuid "2d596372-9b6a-4684-90a1-856d070a1346")
+	)
+	(wire
+		(pts
+			(xy 274.32 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e963ae5-d82f-4fbe-a372-d78223f36024")
 	)
 	(wire
 		(pts
@@ -3533,6 +3577,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 78.74) (xy 267.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4742db9a-f5f5-4480-af5b-f9c72eb4be7f")
+	)
+	(wire
+		(pts
 			(xy 38.1 40.64) (xy 38.1 39.37)
 		)
 		(stroke
@@ -3650,16 +3704,6 @@
 			(type default)
 		)
 		(uuid "52493e46-c065-4ca9-aba9-58d9066ff9ac")
-	)
-	(wire
-		(pts
-			(xy 271.78 48.26) (xy 267.97 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "529a29c0-8897-45c2-9df1-3b48f9df96c1")
 	)
 	(wire
 		(pts
@@ -3800,6 +3844,16 @@
 			(type default)
 		)
 		(uuid "5e4f62a5-dca5-42f7-b44a-a0ad28fd9d22")
+	)
+	(wire
+		(pts
+			(xy 238.76 40.64) (xy 222.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e659e19-494f-4a81-8718-9928084729d5")
 	)
 	(wire
 		(pts
@@ -4020,6 +4074,16 @@
 			(type default)
 		)
 		(uuid "7af94421-5e3b-41b4-b93b-1fac4744f732")
+	)
+	(wire
+		(pts
+			(xy 227.33 38.1) (xy 222.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0b0fe7-6621-4069-815c-4b3dc40f7de0")
 	)
 	(wire
 		(pts
@@ -4273,7 +4337,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 40.64) (xy 222.25 40.64)
+			(xy 243.84 40.64) (xy 238.76 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4523,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 78.74) (xy 267.97 78.74)
+			(xy 273.05 78.74) (xy 271.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4956,7 @@
 		(uuid "24b2d3a9-1fa9-4aa2-b01c-508dd63b6cbb")
 	)
 	(label "U0TXD"
-		(at 228.6 40.64 0)
+		(at 243.84 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4952,7 +5016,7 @@
 		(uuid "47aeb731-52aa-475b-b01c-6a11fefb801b")
 	)
 	(label "ESP_GPIO0"
-		(at 271.78 78.74 0)
+		(at 273.05 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +5176,7 @@
 		(uuid "f168aaf6-e9e8-4568-ba50-f032ddc3d35a")
 	)
 	(label "ESP_EN"
-		(at 271.78 48.26 0)
+		(at 276.86 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,7 +5186,7 @@
 		(uuid "f52ad123-5166-42c3-9ef2-0fd80abafbdf")
 	)
 	(label "U0RXD"
-		(at 228.6 38.1 0)
+		(at 243.84 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6759,6 +6823,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "25092f85-5ab1-459d-87c7-2ea9d6cf8809")
+		(property "Reference" "TP36"
+			(at 267.97 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP_GPIO0"
+			(at 268.224 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 271.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 271.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58224e52-69cd-422b-97df-1912b693d817")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.32 50.8 90)
 		(unit 1)
@@ -6961,7 +7109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -8614,6 +8762,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 274.32 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "719c8e3c-4169-4015-bfb0-9808f4179e34")
+		(property "Reference" "TP35"
+			(at 270.51 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP_EN"
+			(at 270.764 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 279.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3cc9e4-a14c-4e84-a8b9-b2bc6029a582")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 77.47 90)
 		(unit 1)
@@ -9881,7 +10113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -10108,6 +10340,90 @@
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a77748d5-826b-43b4-be23-defe2c797837")
+		(property "Reference" "TP34"
+			(at 242.57 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U0TXD"
+			(at 242.316 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b577e3-cf46-4021-b0dd-252d350c80ee")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -10915,7 +11231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -10999,7 +11315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 114.3 135.89 0)
 			(effects
 				(font
@@ -12028,6 +12344,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d86fc474-3d67-45f7-8218-b74eb6b03d91")
+		(property "Reference" "TP33"
+			(at 223.52 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U0RXD"
+			(at 223.774 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "200b1a8a-466b-4c6a-ac7d-3aff354f84a2")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 276.86 29.21 0)
 		(unit 1)
@@ -12473,7 +12873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 104.14 139.7 0)
 			(effects
 				(font

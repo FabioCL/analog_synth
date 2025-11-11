@@ -1818,9 +1818,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC848"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1835,7 +1834,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC848"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1855,8 +1854,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1865,7 +1864,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1874,7 +1873,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Small Signal Transistor"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1892,34 +1891,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC848_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1928,11 +1904,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "BC848_1_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1944,7 +1918,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1956,7 +1966,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1966,10 +1976,93 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1987,7 +2080,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2005,7 +2098,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2401,6 +2494,12 @@
 		(uuid "0914c7c2-bba7-4958-875a-456b37dd2b6c")
 	)
 	(junction
+		(at 91.44 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd03221-2aa7-45ad-a17f-9ac79c731183")
+	)
+	(junction
 		(at 194.31 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2443,16 +2542,16 @@
 		(uuid "33b98cbd-8ed0-4743-a256-d79e5f8e683e")
 	)
 	(junction
+		(at 91.44 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3af11524-7a3d-4bbf-9d3d-87a61a2a2c81")
+	)
+	(junction
 		(at 256.54 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44d30a29-705e-4d0b-bb5f-e99cd12b02f9")
-	)
-	(junction
-		(at 91.44 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "453d16f7-b854-484d-a089-9f646ca4d450")
 	)
 	(junction
 		(at 160.02 78.74)
@@ -2495,12 +2594,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98ad92a0-7809-477f-823b-1192418e3529")
-	)
-	(junction
-		(at 91.44 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdb5dcc2-a953-4f8a-a5fb-b0f69e6cfeda")
 	)
 	(junction
 		(at 186.69 68.58)
@@ -2583,16 +2676,6 @@
 			(type default)
 		)
 		(uuid "1992ec34-f8f5-456c-9014-8edb5a63a9f0")
-	)
-	(wire
-		(pts
-			(xy 85.09 180.34) (xy 91.44 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aab098a-03b8-4573-a70e-9bcb3e6f9514")
 	)
 	(wire
 		(pts
@@ -3066,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 180.34) (xy 91.44 180.34)
+			(xy 85.09 180.34) (xy 91.44 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3273,6 +3356,16 @@
 			(type default)
 		)
 		(uuid "72e39193-d7fe-4f0a-bfeb-df37bea8bebe")
+	)
+	(wire
+		(pts
+			(xy 91.44 146.05) (xy 92.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753e1c69-7dc5-4395-bf6c-f633eee07626")
 	)
 	(wire
 		(pts
@@ -3693,16 +3786,6 @@
 			(type default)
 		)
 		(uuid "a964ca13-9f5e-4591-8032-d86b69d51893")
-	)
-	(wire
-		(pts
-			(xy 92.71 146.05) (xy 91.44 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa29ef20-f14c-496c-b31b-37b07eca02c1")
 	)
 	(wire
 		(pts
@@ -4206,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 180.34) (xy 92.71 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ca5cc6-eb6e-4c93-ae02-9030e0c4fc7a")
+	)
+	(wire
+		(pts
 			(xy 237.49 78.74) (xy 241.3 78.74)
 		)
 		(stroke
@@ -4433,6 +4526,118 @@
 			(justify right bottom)
 		)
 		(uuid "fbfb35c1-e56e-44c3-bb45-fdb5dc3b6e5e")
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 104.14 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04622acf-a91b-4e78-84eb-192be2df0cb0")
+		(property "Reference" "Q13"
+			(at 110.49 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 110.49 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 109.22 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 109.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "2N7002"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7b6200-815c-4495-b247-8cb1a34567c5")
+		)
+		(pin "2"
+			(uuid "79610b68-439c-41c4-aae2-ca47a539232d")
+		)
+		(pin "3"
+			(uuid "c8712e08-1e5e-4fd4-a940-4efc26efb849")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4737,7 +4942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "mylib:Potentiometer_RV09_Single_Vertical"
 			(at 171.45 134.62 0)
 			(effects
 				(font
@@ -5536,24 +5741,126 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 146.05 270)
-		(mirror x)
+		(at 95.25 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e4d25e7-6df4-4699-bc1b-fb5aea2cde68")
-		(property "Reference" "R202"
-			(at 94.996 148.59 90)
+		(uuid "3ed8d666-dc8f-4f12-8d56-75a4dfa4b380")
+		(property "Reference" "R65"
+			(at 95.25 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 95.25 150.622 90)
+		(property "Value" "1k"
+			(at 94.996 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.25 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5d5fc71-8997-4f38-b08a-4c1348849a43")
+		)
+		(pin "1"
+			(uuid "8d0e0210-bf99-4ec3-aa0f-a43e50a47eb6")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "446e62b6-1713-4d7b-9584-d816c6588473")
+		(property "Reference" "R64"
+			(at 95.25 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 94.996 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5895,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 95.25 146.05 90)
+			(at 95.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,8 +5903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PartNumer" "RT0402FRE0710KL"
-			(at 95.25 146.05 90)
+		(property "Manufacturer PartNumer" "RT0402FRE071KL"
+			(at 95.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5913,7 @@
 			)
 		)
 		(property "MN" ""
-			(at 95.25 146.05 90)
+			(at 95.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5922,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 95.25 146.05 90)
+			(at 95.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,15 +5931,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b6eaef46-540c-400a-afbf-e1a092de5c00")
+			(uuid "2e043232-f5b2-419f-82ef-2e89a363b1ac")
 		)
 		(pin "1"
-			(uuid "88eae340-db07-40cc-8d8f-0bb6495b8db7")
+			(uuid "4803206d-3c77-47b1-a84f-37e613f282ac")
 		)
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(reference "R202")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -6378,7 +6685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "mylib:Potentiometer_RV09_Single_Vertical"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -6656,7 +6963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 114.3 127 0)
 			(effects
 				(font
@@ -6883,117 +7190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC848")
-		(at 104.14 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81f3da4e-0295-48e4-b241-aa9061604460")
-		(property "Reference" "Q7"
-			(at 97.536 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC848"
-			(at 97.536 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 109.22 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fairchild Semiconductor"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PartNumer" "BC848A"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" ""
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e8c18b96-f8cf-46fb-8b24-c971ed64e7bc")
-		)
-		(pin "1"
-			(uuid "1b6768dc-97e7-4fe7-ae02-d37b71bcd491")
-		)
-		(pin "2"
-			(uuid "f8c9e527-b03e-4bf9-80d4-03081e41c6b7")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 190.5 116.84 0)
 		(unit 1)
@@ -7020,7 +7216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -7105,7 +7301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "mylib:Potentiometer_RV09_Single_Vertical"
 			(at 30.48 162.56 0)
 			(effects
 				(font
@@ -7398,6 +7594,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 104.14 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ff8099-f821-4f30-95e2-e9739fc815cd")
+		(property "Reference" "Q7"
+			(at 110.49 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 110.49 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 109.22 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PartNumer" "2N7002"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" ""
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e8cbf47-8298-411f-8bfe-b600958f18f0")
+		)
+		(pin "2"
+			(uuid "8821fcf5-4d45-4dbf-baec-913e7bcb23de")
+		)
+		(pin "3"
+			(uuid "1182bde5-4ebe-41be-b4f7-f7d328b2d8b6")
+		)
+		(instances
+			(project "midi_vco_module"
+				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 153.67 0)
 		(mirror y)
@@ -7458,221 +7766,6 @@
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 180.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4baa773-bfde-43d8-b9a1-62c5cb0ae792")
-		(property "Reference" "R205"
-			(at 94.996 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.25 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 95.25 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PartNumer" "RT0402FRE0710KL"
-			(at 95.25 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" ""
-			(at 95.25 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 95.25 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "245a73ca-4efa-4b5f-9722-9d07602c6cc5")
-		)
-		(pin "1"
-			(uuid "d0d63853-361c-4275-8b3d-74354fb6b4e1")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(reference "R205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC848")
-		(at 104.14 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a97c6c87-ecf3-4a7a-ae3a-58bd5cd41497")
-		(property "Reference" "Q13"
-			(at 97.536 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC848"
-			(at 97.536 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 109.22 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fairchild Semiconductor"
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PartNumer" "BC848A"
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 104.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "66cc15db-f79e-4ea1-8881-843ab916375e")
-		)
-		(pin "1"
-			(uuid "8c8247ed-93af-4626-88b0-95fd9ba398fe")
-		)
-		(pin "2"
-			(uuid "badd06c0-d69c-4d34-8b3c-73a17f3b8d73")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -8596,7 +8689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "mylib:Potentiometer_RV09_Single_Vertical"
 			(at 158.75 154.94 0)
 			(effects
 				(font
@@ -10138,7 +10231,7 @@
 			)
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10224,7 +10317,7 @@
 			)
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10296,7 +10389,7 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10502,7 +10595,7 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10614,7 +10707,7 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10676,7 +10769,7 @@
 		(instances
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10832,7 +10925,7 @@
 			)
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -10988,7 +11081,7 @@
 			)
 			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
-					(page "")
+					(page "#")
 				)
 			)
 		)
@@ -11179,7 +11272,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "")
+			(page "#")
 		)
 	)
 	(embedded_fonts no)
