@@ -1820,6 +1820,7 @@
 		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2035,7 +2036,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -9973,26 +9974,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CP_DP" bidirectional
-			(at 39.37 22.86 180)
-			(uuid "eb957f1e-b9c8-471b-b764-e0ff16c0f705")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CP_DN" bidirectional
-			(at 39.37 25.4 180)
-			(uuid "7ec7dce7-c575-47d8-999f-66ff2adc8093")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MIDI_IN" input
 			(at 39.37 33.02 180)
 			(uuid "caed1e55-e590-4a11-8939-90f748b85bcf")
@@ -10223,6 +10204,26 @@
 				(justify right)
 			)
 		)
+		(pin "CP_D_P" bidirectional
+			(at 39.37 22.86 180)
+			(uuid "5096b8a7-8927-45e2-bb98-8956a5f18f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CP_D_N" bidirectional
+			(at 39.37 25.4 180)
+			(uuid "064b3dd8-71d2-42db-bd5d-affe750a5143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "analog_synth"
 				(path "/a8b8d30d-8d60-4de0-b5a6-095005c57c8e"
@@ -10269,26 +10270,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CP_DN" bidirectional
-			(at 33.02 25.4 0)
-			(uuid "b0d357a5-3c77-4b48-ac46-c372df5be519")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CP_DP" bidirectional
-			(at 33.02 22.86 0)
-			(uuid "29a5119b-34f8-4a9f-abdf-c53c22d92df2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MIDI_EN" input
 			(at 33.02 30.48 0)
 			(uuid "90abd323-c077-42df-9548-8842b5eb44cb")
@@ -10302,6 +10283,26 @@
 		(pin "MIDI_OUT" output
 			(at 33.02 33.02 0)
 			(uuid "c9bc5f8b-fe88-42c9-9f55-5be8a530b8f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CP_D_N" bidirectional
+			(at 33.02 25.4 0)
+			(uuid "30be1bf7-6420-4ebf-bcf9-87357cc07bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CP_D_P" bidirectional
+			(at 33.02 22.86 0)
+			(uuid "8504cef1-0737-4a94-b45f-c9c2c94430f1")
 			(effects
 				(font
 					(size 1.27 1.27)

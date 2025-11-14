@@ -2312,7 +2312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BCM847BS.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -3090,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BCM847BS.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf"
 			(at 147.32 96.52 0)
 			(effects
 				(font

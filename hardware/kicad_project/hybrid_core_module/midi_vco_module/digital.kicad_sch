@@ -3547,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 53.34) (xy 182.88 53.34)
+			(xy 173.99 53.34) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3644,16 +3644,6 @@
 			(type default)
 		)
 		(uuid "4d9af250-edd2-41ac-affe-05cc0fc78296")
-	)
-	(wire
-		(pts
-			(xy 46.99 177.8) (xy 46.99 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5f1552-8b31-4f70-8dbb-3e5059ffde5d")
 	)
 	(wire
 		(pts
@@ -4037,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 182.88 55.88)
+			(xy 173.99 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5065,6 +5055,16 @@
 		)
 		(uuid "65722298-2724-440c-8b00-a0dbedf3d45e")
 	)
+	(label "CP_D_N"
+		(at 175.26 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698aa661-6d29-48f3-844a-32f9de8fa6fb")
+	)
 	(label "ESP_GPIO0"
 		(at 97.79 54.61 0)
 		(effects
@@ -5074,6 +5074,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b9db2e4-6fae-442a-ab88-4e3671071c5c")
+	)
+	(label "CP_D_P"
+		(at 175.26 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86a6be43-a337-4a29-a481-53b3f1b964f6")
 	)
 	(label "ESP_GPIO02"
 		(at 85.09 176.53 0)
@@ -5279,9 +5289,9 @@
 		)
 		(uuid "37c74e91-d305-4e64-a772-cdef7ca70ed0")
 	)
-	(hierarchical_label "CP_DP"
+	(hierarchical_label "CP_D_P"
 		(shape bidirectional)
-		(at 176.53 55.88 180)
+		(at 173.99 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5378,9 +5388,9 @@
 		)
 		(uuid "87b91225-774a-4e44-b6a0-5bbe400f88ab")
 	)
-	(hierarchical_label "CP_DN"
+	(hierarchical_label "CP_D_N"
 		(shape bidirectional)
-		(at 176.53 53.34 180)
+		(at 173.99 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6006,7 +6016,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d903487-8a19-42a2-a3dd-44f79f8c6504")
 		(property "Reference" "R207"
 			(at 264.922 24.384 90)
@@ -6751,72 +6761,6 @@
 			(project "analog_synth"
 				(path "/a8b8d30d-8d60-4de0-b5a6-095005c57c8e/07f03e9d-967e-4db5-8422-4176953ca616"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fd7ce32-a1f3-460d-9bb0-338e0dd7f7f8")
-		(property "Reference" "#PWR0170"
-			(at 46.99 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5f4742f-bd8c-4612-bccb-00499c4fbc1d")
-		)
-		(instances
-			(project "midi_vco_module"
-				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5/07f03e9d-967e-4db5-8422-4176953ca616"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
