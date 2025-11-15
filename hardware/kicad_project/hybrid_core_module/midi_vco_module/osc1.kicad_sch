@@ -14180,12 +14180,12 @@
 	(symbol
 		(lib_id "power:+15V")
 		(at 41.91 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff044252-0d6f-4989-b5d3-9da3f6243d5c")
 		(property "Reference" "#PWR0279"
 			(at 41.91 115.57 0)

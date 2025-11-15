@@ -2860,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 144.78) (xy 260.35 144.78)
+			(xy 256.54 144.78) (xy 260.35 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 147.32) (xy 260.35 147.32)
+			(xy 256.54 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4338,16 +4338,6 @@
 		)
 		(uuid "fdfe509d-3778-4d1a-87b3-0ffbaacbd6b0")
 	)
-	(label "OSC2_OUT_INTER"
-		(at 256.54 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "036988af-3696-4b9f-851d-b9243b3a6a31")
-	)
 	(label "CALIBATION_MODE"
 		(at 92.71 180.34 180)
 		(effects
@@ -4377,6 +4367,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b7ec035-dff5-4abc-8830-cbbe129b9c75")
+	)
+	(label "VELOCITY_OUT_INTER"
+		(at 256.54 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1eab4f64-b7f9-4ee9-934b-86b8e4f2b642")
 	)
 	(label "VELOCITY_OUT_INTER"
 		(at 265.43 92.71 180)
@@ -4426,7 +4426,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4a54fdd6-54e9-4316-8e2b-7b2b2305fab6")
+		(uuid "4748a6f5-5360-40cc-ab73-1cc32d5fb846")
 	)
 	(label "CALIBATION_MODE"
 		(at 92.71 146.05 180)
@@ -4438,15 +4438,15 @@
 		)
 		(uuid "5e5abd07-cfbf-4975-8c32-8bda4bd104a7")
 	)
-	(label "OSC_LFO_INTER"
-		(at 255.27 147.32 180)
+	(label "OSC2_OUT_INTER"
+		(at 256.54 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "681b760f-1955-4495-a0de-a83e5ea96dde")
+		(uuid "6325db50-65ea-47d4-922e-23a3e714e9a7")
 	)
 	(label "OSC2_OUT_INTER"
 		(at 265.43 76.2 180)
@@ -4457,16 +4457,6 @@
 			(justify right bottom)
 		)
 		(uuid "682508bd-b624-468b-94d8-6c6224d79935")
-	)
-	(label "VELOCITY_OUT_INTER"
-		(at 256.54 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69dea7c4-b271-4366-8683-6f44a6621a50")
 	)
 	(label "VELOCITY_OUT"
 		(at 262.89 95.25 180)
@@ -4498,6 +4488,26 @@
 		)
 		(uuid "b4fa7e46-6567-474c-b8ff-d13c6a291d80")
 	)
+	(label "OSC_LFO_INTER"
+		(at 256.54 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d79dee90-9630-45af-9583-519a4c35ac0d")
+	)
+	(label "GATE_OUT_INTER"
+		(at 256.54 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de718f6f-f059-4992-a5b6-440527bd7a10")
+	)
 	(label "GATE_OUT"
 		(at 259.08 110.49 180)
 		(effects
@@ -4517,16 +4527,6 @@
 			(justify right bottom)
 		)
 		(uuid "f5248017-6322-471d-9e0a-46f0f67d80d7")
-	)
-	(label "GATE_OUT_INTER"
-		(at 255.27 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbfb35c1-e56e-44c3-bb45-fdb5dc3b6e5e")
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
@@ -7953,7 +7953,7 @@
 			(uuid "b075a9f0-473a-4456-b80d-e7ce53cfd75e")
 		)
 		(instances
-			(project ""
+			(project "midi_vco_module"
 				(path "/3378c2b5-f4b3-47f0-8cdf-dba4991b82b5"
 					(reference "J2")
 					(unit 1)
